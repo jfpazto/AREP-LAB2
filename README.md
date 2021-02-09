@@ -70,6 +70,6 @@ Verificamos que las pruebas se ejecuten correctamente
 Licencia bajo la [GNU General Public License](https://github.com/jfpazto/AREP-LAB1/blob/master/LICENSE.txt).
 
 
-
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/jfpazto/AREP-LAB2)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://calculadora-arep.herokuapp.com/inputdata)
