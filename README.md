@@ -27,11 +27,12 @@ Para poder compilar correctamente el programa y ver su ejecucion es necesario te
 * [Eclipse](https://www.eclipse.org/ide/)
 
 ## Ejecucion ✅
-### 1. HAga click sobre el siguiente boton.
+### 1. Haga click sobre el siguiente boton.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://calculadora-arep.herokuapp.com/inputdata)
 
-Para mayor informacion haga click sobre el siguiente link.
+### 2. Para mayor informacion haga click sobre el siguiente link.
+* [Manual](https://github.com/jfpazto/AREP-LAB2/blob/master/LAB2.pdf)
 
 
 ## Instalación ✅
