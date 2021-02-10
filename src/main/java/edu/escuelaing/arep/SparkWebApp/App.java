@@ -10,11 +10,18 @@ import edu.escuelaing.arep.SparkWebApp.Calcu.Calculadora;
 import edu.escuelaing.arep.SparkWebApp.LinkedList.LinkedList;
 import spark.Request;
 import spark.Response;
-
+/**
+ * Esta clase se encarga de construir un proyecto weu a traves de spark
+ * @author  Jonathan Fabian Paez Torres
+ * @version 1.0
+ */
 public class App {
-	static Reader lec;
+	
 	static Calculadora calcu;
-
+	/**
+	 * Metodo principal el cual se encarga de leer el archivo y calcular el promedio y la desviacion estandar del archivo.
+	 * @param args - Inicia el programa
+	 */
 	public static void main(String[] args) {
 		port(getPort());
 		get("/inputdata", (req, res) -> inputDataPage(req, res));
@@ -93,7 +100,7 @@ public class App {
 	        return pageResponse;
 	    }
 
-	/**
+	    /**
 	    * Este metodo lee el puerto predeterminado segun lo especificado por la variable PORT en el entorno.
 	    * @return returns Retorna el puerto predeterminado si el heroku-port no esta configurado (es decir, en localhost).
 	    */
