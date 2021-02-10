@@ -2,10 +2,8 @@
 
 ## INTRODUCCIÓN
 
-Durante la elaboración de este laboratorio, se desarrollará un programa en el que a
-partir de un archivo plano con sus respectivos datos se podrá calcular su media y
-desviación estándar, para leer los datos es necesario desarrollar una implementacion propia
-de una estructura de datos LinkedList.
+Durante la elaboración de este laboratorio, se desarrollará un programa en el que podra consultar la media 
+y desviacion de una lista de numeros, el progrma esta contruido en una infraestructura de nube en la que podra ejecutar su aplicacion.
 
 
 ## Prerrequisitos
@@ -14,6 +12,7 @@ Para poder compilar correctamente el programa y ver su ejecucion es necesario te
 * [JAVA](https://www.java.com/es/download/ie_manual.jsp)
 * [Maven](https://maven.apache.org/)
 * [GIT](https://git-scm.com/)
+* [Heroku](https://dashboard.heroku.com/)
 
 ## Construido con
 * [Maven](https://maven.apache.org/)
@@ -26,6 +25,13 @@ Para poder compilar correctamente el programa y ver su ejecucion es necesario te
 
 ### IDE Utilizado
 * [Eclipse](https://www.eclipse.org/ide/)
+
+## Ejecucion ✅
+### 1. HAga click sobre el siguiente boton.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://calculadora-arep.herokuapp.com/inputdata)
+
+Para mayor informacion haga click sobre el siguiente link.
 
 
 ## Instalación ✅
@@ -72,4 +78,4 @@ Licencia bajo la [GNU General Public License](https://github.com/jfpazto/AREP-LA
 
 [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/jfpazto/AREP-LAB2)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://calculadora-arep.herokuapp.com/inputdata)
+
